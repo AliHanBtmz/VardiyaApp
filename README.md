@@ -1,6 +1,6 @@
 # 📅 Akıllı Vardiya Asistanı (Smart Shift Assistant)
 
-**Akıllı Vardiya Asistanı**, vardiya takibini kolaylaştırmak için geliştirilmiş, **Google Gemini AI** destekli modern bir Flutter uygulamasıdır. Vardiya listelerinizi fotoğraf olarak yükleyin, yapay zeka sizin için takvime işlesin!
+**Akıllı Vardiya Asistanı**, vardiya takibini kolaylaştırmak için geliştirilmiş, **Google Gemini AI** destekli modern bir Flutter uygulamasıdır. Vardiya listelerinizi fotoğraf olarak yükleyin, yapay zeka sizin için takvime işlesin! Uygulama farklı formattaki vardiya listelerini anlayarak işleyebilir.
 
 
 ## 🚀 Özellikler
@@ -20,7 +20,12 @@
 | ![Ana Ekran](images/main.jpg) | ![API Key](images/add_api_key.jpg) | ![Yükleme](images/add_shift.jpg) | ![Manuel Ekleme](images/manuel_add.jpg) | ![Silme](images/delete.jpg) |
 | *Takvim görünümü ve vardiyalar* | *API Key ekleme* | *Resimden, Excel ve Manuel ekleme* | *Manuel ekleme* | *Silme* |
 
+## Kullandığım Excel Dosyası ve Vardiya Resmi 
 
+* **🖼️ Vardiya Resmi** ![Kullandığım Vardiya Resmi](images/vardiya.png)
+* **📊 Excel Çizelgesi:**[Kullandığım Excel Dosyası](images/Vardiya_dosyası.xlsx)
+
+ 
 
 ## 🛠️ Kullanılan Teknolojiler
 
