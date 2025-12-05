@@ -43,3 +43,52 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter/Dart ile ilgili genel dosyalar
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+
+# Android ile ilgili gereksiz dosyalar
+android/app/libs/
+android/app/src/main/assets/
+android/gradle/wrapper/gradle-wrapper.jar
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/*.iml
+android/app/*.iml
+**/android/app/build
+**/android/app/release
+
+# iOS ile ilgili gereksiz dosyalar
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+ios/.generated/
+
+# Windows/Linux/macOS (Desktop) gereksiz dosyaları (Senin C++ oranını düşürecek kısım)
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+macos/Flutter/ephemeral/
+*.ninja
+*.cmake
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# IDE dosyaları (VS Code / Android Studio ayarları)
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
