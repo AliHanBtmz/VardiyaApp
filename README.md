@@ -1,3 +1,4 @@
+[![İndir](https://img.shields.io/badge/İndir-APK-blue?style=for-the-badge&logo=android)](https://github.com/AliHanBtmz/VardiyaApp/releases/download/v1.0.0/app-release.apk)
 # 📅 Akıllı Vardiya Asistanı (Smart Shift Assistant)
 
 **Akıllı Vardiya Asistanı**, vardiya takibini kolaylaştırmak için geliştirilmiş, **Google Gemini AI** destekli modern bir Flutter uygulamasıdır. Vardiya listelerinizi fotoğraf olarak yükleyin, yapay zeka sizin için takvime işlesin! Uygulama farklı formattaki vardiya listelerini anlayarak işleyebilir.
