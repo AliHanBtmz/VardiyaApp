@@ -2,8 +2,6 @@
 
 **Akıllı Vardiya Asistanı**, vardiya takibini kolaylaştırmak için geliştirilmiş, **Google Gemini AI** destekli modern bir Flutter uygulamasıdır. Vardiya listelerinizi fotoğraf olarak yükleyin, yapay zeka sizin için takvime işlesin!
 
-![App Banner](assets/screenshots/banner.png)
-*(Buraya uygulamanın genel bir banner görselini ekleyebilirsiniz)*
 
 ## 🚀 Özellikler
 
@@ -14,22 +12,20 @@
 *   **✏️ Kolay Yönetim:** Vardiyaları manuel olarak ekleyin, düzenleyin veya silin.
 *   **🗑️ Toplu Silme:** Takvimden veya listeden çoklu seçim yaparak vardiyaları hızlıca silin.
 *   **🎨 Modern Tasarım:** Göz yormayan, şık ve kullanıcı dostu arayüz.
-*   **🇹🇷 Türkçe Dil Desteği:** Tamamen Türkçe arayüz.
 
 ## 📸 Ekran Görüntüleri
 
-| Ana Ekran & Takvim | Vardiya Listesi | Yükleme Seçenekleri |
-|:---:|:---:|:---:|
-| ![Ana Ekran](assets/screenshots/home.png) | ![Liste](assets/screenshots/list.png) | ![Yükleme](assets/screenshots/upload.png) |
-| *Takvim görünümü ve vardiyalar* | *Detaylı vardiya listesi* | *AI, Excel ve Manuel ekleme* |
+| Ana Ekran & Takvim | API Key Ekleme | Yükleme Seçenekleri | Manuel Ekleme | Silme |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Ana Ekran](images/main.jpg) | ![API Key](images/add_api_key.jpg) | ![Yükleme](images/add_shift.jpg) | ![Manuel Ekleme](images/manuel_add.jpg) | ![Silme](images/delete.jpg) |
+| *Takvim görünümü ve vardiyalar* | *API Key ekleme* | *Resimden, Excel ve Manuel ekleme* | *Manuel ekleme* | *Silme* |
 
-*(Screenshots klasörüne yukarıdaki isimlerde görseller ekleyerek bu alanı güncelleyebilirsiniz)*
+
 
 ## 🛠️ Kullanılan Teknolojiler
 
 *   **[Flutter](https://flutter.dev/):** Cross-platform mobil uygulama geliştirme framework'ü.
 *   **[Google Generative AI (Gemini)](https://ai.google.dev/):** Görüntü işleme ve metin analizi için.
-*   **[Provider](https://pub.dev/packages/provider):** State management (Durum yönetimi).
 *   **[Table Calendar](https://pub.dev/packages/table_calendar):** Özelleştirilebilir takvim bileşeni.
 *   **[Excel](https://pub.dev/packages/excel):** Excel dosyalarını okumak için.
 
@@ -39,8 +35,8 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 1.  **Projeyi Klonlayın:**
     ```bash
-    git clone https://github.com/kullaniciadi/repo-adi.git
-    cd geminniflutter
+    git clone https://github.com/AliHanBtmz/VardiyaApp.git
+    cd VardiyaApp
     ```
 
 2.  **Bağımlılıkları Yükleyin:**
@@ -61,6 +57,4 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 Katkıda bulunmak isterseniz, lütfen bir "Pull Request" gönderin veya bir "Issue" açın. Her türlü katkı memnuniyetle karşılanır!
 
-## 📄 Lisans
 
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
